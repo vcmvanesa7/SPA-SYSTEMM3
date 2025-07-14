@@ -6,14 +6,14 @@ This project is a **Single Page Application (SPA)** built in **Vanilla JavaScrip
 
 ##  Features
 
-✅ User registration and login
-✅ Roles: `admin` and `user`
-✅ User CRUD (admin)
-✅ Course CRUD (admin)
-✅ Custom view for regular users
-✅ Manual routing via hash (`#/login`, `#/dashboard`, etc.)
-✅ Use of `json-server` as a local database (REST API simulation)
-✅ Reusable components (`Header`, `Sidebar`, `Modal`, `Table`)
+✅ User registration and login  
+✅ Roles: `admin` and `user`  
+✅ User CRUD (admin)  
+✅ Course CRUD (admin)  
+✅ Custom view for regular users  
+✅ Manual routing via hash (`#/login`, `#/dashboard`, etc.)  
+✅ Use of `json-server` as a local database (REST API simulation)  
+✅ Reusable components (`Header`, `Sidebar`, `Modal`, `Table`)  
 
 ---
 
