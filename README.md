@@ -19,9 +19,9 @@ This project is a **Single Page Application (SPA)** built in **Vanilla JavaScrip
 
 ##  Technologies used
 
-- HTML5
-- CSS3
-- JavaScript (ES Modules)
+- HTML5  
+- CSS3  
+- JavaScript (ES Modules)  
 - Vite (for development environment)
 
 ---
@@ -30,17 +30,17 @@ This project is a **Single Page Application (SPA)** built in **Vanilla JavaScrip
 
 spa-system/
 │
-├── src/
-│ ├── components/ → Header, Sidebar, Modal, User Table
-│ ├── pages/ → Views: login, register, dashboard, courses, etc.
-│ ├── services/ → API logic (fetching a json-server)
-│ ├── utils/ → Reusable functions (auth, storage)
-│ └── main.js → Main router
+├── src/  
+│ ├── components/ → Header, Sidebar, Modal, User Table  
+│ ├── pages/ → Views: login, register, dashboard, courses, etc.  
+│ ├── services/ → API logic (fetching a json-server)  
+│ ├── utils/ → Reusable functions (auth, storage)  
+│ └── main.js → Main router    
 │
-├── db.json → Mock database (json-server)
-├── index.html → Base HTML
-├── vite.config.js → Vite configuration
-└── README.md → This file
+├── db.json → Mock database (json-server)  
+├── index.html → Base HTML  
+├── vite.config.js → Vite configuration  
+└── README.md → This file  
 
 ---
 
