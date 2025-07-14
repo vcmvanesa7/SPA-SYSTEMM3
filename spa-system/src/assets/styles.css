@@ -1,0 +1,227 @@
+
+/* 1. Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Fuente y color base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 3. Títulos */
+h1,
+h2,
+h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* 4. Párrafos */
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* 5. Links */
+a {
+  color: #6A00FE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 6. Botones */
+button {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #6A00FE;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6A00FE;
+}
+
+/* 7. Formularios */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select, #phone,
+textarea {
+  max-width: auto;
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  /* centrado horizontal */
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  align-content: center;
+}
+
+.btns-register-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* 8. Contenedor general*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 9. Secciones */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-section, section.login-section , section.public-page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 3rem;
+  margin: 0 auto;
+  /* centrado horizontal */
+  margin-top: 7rem;
+  gap: 1rem;
+}
+
+
+
+
+/* 10. Mensajes de error y éxito */
+.error-msg {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success-msg {
+  color: green;
+  font-size: 0.85rem;
+}
+
+/* Estilo para oscurecer el fondo */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Fondo oscuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  /* Muy arriba en el orden */
+}
+
+/* Contenedor interno del modal */
+.modal-content {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Botón cerrar (X) */
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sidebar,header {
+  background-color: #86a4c5;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    min-height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  form, 
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select, 
+  #phone,
+  textarea 
+  {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+    width: 100%;
+  }
+
+  td {
+    padding-left: 50%;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+}

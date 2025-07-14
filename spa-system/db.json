@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "001",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "Admin123",
+      "role": "admin",
+      "phone": "3085456789",
+      "dateOfAdmission": "2025-07-14",
+      "enrollNumber": "MAT-001"
+    },
+    {
+      "id": "002",
+      "name": "User",
+      "email": "user@gmail.com",
+      "password": "User1234",
+      "role": "user",
+      "phone": "3085400089",
+      "dateOfAdmission": "2025-07-14",
+      "enrollNumber": "MAT-002"
+    },
+    {
+      "id": "003",
+      "name": "Vanesa",
+      "email": "manu@gmail.com",
+      "password": "135155AA.445",
+      "role": "user",
+      "phone": "1234567891",
+      "dateOfAdmission": "2025-07-14",
+      "enrollNumber": "MAT-003"
+    }
+  ]
+}
