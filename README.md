@@ -28,7 +28,7 @@ This project is a **Single Page Application (SPA)** built in **Vanilla JavaScrip
 
 ## 📁 Structure of the project
 
-spa-system/
+spa-system/  
 │
 ├── src/  
 │ ├── components/ → Header, Sidebar, Modal, User Table  
